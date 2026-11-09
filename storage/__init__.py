@@ -1,0 +1,1 @@
+"""Persistance des événements SSH."""

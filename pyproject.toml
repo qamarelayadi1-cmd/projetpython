@@ -1,0 +1,15 @@
+[project]
+name = "log-analysis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "psycopg2-binary>=2.9.13",
+    "requests>=2.34.2",
+]
+
+[tool.setuptools]
+packages = ["pipeline", "serving", "storage"]
+py-modules = ["logger_config", "main"]
